@@ -1,0 +1,215 @@
+/* RESET */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* MODO CLARO E ESCURO */
+
+.Dark{
+    background-color: #222;
+    color: #ccc;
+}
+
+.Light{
+    background-color: #ccc;
+    color: #222;
+}
+
+/* AREA GERAL*/
+
+.GeralCnt{
+    width: 100%;
+    height: 100wh;
+}
+
+.ContCnt{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+}
+
+/* HEADER */
+
+.HeaderPage{
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    color: #fbff00;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.HeaderPage h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#BotaoM{
+    width: 70px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbff00;
+    border: #222 solid 2px;
+    border-radius: 40px;
+    color: #000;
+}
+
+#BotaoM:active{
+    background-color: #fbff00d8;
+    font-size: 26px;
+}
+
+/* Blogs */
+
+.BlogCnt{
+    width: 60%;
+    padding: 10px;
+    border: 3px solid #000000;
+    background-color: #222;
+    margin-top: 10px;
+    padding-top: 3px;
+    border-radius: 9px;
+}
+
+.DarkBlog{
+    border: 2px solid #fbff00;
+    background-color: #3f3f3f;
+}
+
+fieldset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 9px;
+}
+
+legend{
+    margin-left: 10px;
+    padding: 2px;
+    font-size: 21px;
+    color: #fff;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 220px;
+    height: 28px;
+    font-size: 20px;
+    padding: 2px;
+    background-color: #fbff00;
+    color: #000;
+    border-radius: 9px;
+}
+
+textarea{
+    width: 240px;
+    height: 80px;
+    font-size: 16px;
+    padding: 3px;
+    background-color: #fbff00;
+    color: #000;
+    border-radius: 9px;
+}
+
+#insertButton{
+    width: 130px;
+    height: 30px;
+    background-color: #fbff00;
+    border: #000 solid 3px;
+    border-radius: 9px;
+    margin-bottom: 6px;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+    color: #000;
+}
+
+#insertButton:active{
+    background-color: #e9ec0cd8;
+    font-size: 23px;
+}
+
+.posts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.posts h3{
+    color: #fff;
+    font-size: 16px;
+}
+
+.posts div{
+    width: 80%;
+    margin-bottom: 15px;
+    border: 3px solid #fff;
+    color: #fff;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 9px;
+    font-size: 16px;
+}
+
+.posts div h1{
+    margin-bottom: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 22px;
+}
+
+.posts div p{
+    margin-bottom: 5px;
+}
+
+.posts div h5{
+    color: #fbff00;
+    font-size: 14px;
+}
+
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    border: #222 solid 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer h1, a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #fbff00;
+    font-size: 21px;
+}
+
+footer a:active{
+    color: #ccc;
+}
+
+footer h2{
+    color: #fff;
+    font-size: 16px;
+}
